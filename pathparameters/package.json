@@ -1,8 +1,5 @@
-
-
-
 {
-  "name": "request-handling",
+  "name": "pathparameters",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,6 +9,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "expresss": "^0.0.0"
+    "express": "^4.21.1"
   }
 }
