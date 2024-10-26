@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is home page  <%=  data.name %></h1>
+
+    <h1>Followers <%=   data.followers %></h1>
+    <h1>Followers <%=   data.following %></h1>
+
+    <% for(let post of data.posts){%>
+        <img src="<%=  post.image  %>"/>
+
+        <h1> <%= post.likes  %></h1>
+        <h1> <%= post.comments  %></h1>
+    <%}%>
+</body>
+</html>
