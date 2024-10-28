@@ -42,6 +42,7 @@
             <h1 class="user"><%= post.username %></h1>
             <h2 class="content"><%= post.content %></h2>
             <a href="http://localhost:8000/posts/<%= post.id %>">See in detail</a>
+            <a href="http://localhost:8000/posts/<%= post.id %>/edit">Edit</a>
             <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
                 <button type="submit">Delete</button>
             </form>
