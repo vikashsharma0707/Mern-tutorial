@@ -1,0 +1,29 @@
+{
+  "students": [
+    {
+      "eno": 121,
+      "name": "jay",
+      "designation": "job",
+      "salary": 10000,
+      "id": "6281"
+    },
+    {
+      "eno": 122,
+      "name": "ram",
+      "designation": "job",
+      "salary": 20000,
+      "id": "32db"
+    },
+    {
+      "id": "c09a",
+      "eno": "1222222"
+    },
+    {
+      "id": "d7d6",
+      "eno": "144",
+      "name": "fefe",
+      "designation": "ds",
+      "salary": "1212"
+    }
+  ]
+}
